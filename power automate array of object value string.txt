@@ -1,0 +1,1 @@
+join(xpath(xml(json(concat('{"body":{"value":', item()?['MultipleChoice'] , '}}'))), '/body/value/Value/text()'), ', ')
